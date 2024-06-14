@@ -14,8 +14,8 @@ const Blog = () => {
   });
 
 
-  if (loading) {
-   return( <div>
+  if (loading || !blog) {
+    return (<div>
       <Appbar />
       <div className=" h-screen flex justify-center flex-col">
 
