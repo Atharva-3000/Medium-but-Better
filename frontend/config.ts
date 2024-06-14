@@ -1,0 +1,1 @@
+export const BACKEND_URL = " https://backend.shiny-moon-7d27.workers.dev";
